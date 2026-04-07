@@ -7,7 +7,7 @@ def classFactory(iface):
     :param iface: Uma instância da interface do QGIS (QgsInterface).
     :type iface: QgsInterface
     """
-    # Importamos a classe principal aqui para evitar erros de 
-    # importação circular durante a inicialização do QGIS
-    from .main import BDC-S2-Downloader-QGISPlugin
-    return BDC-S2-Downloader-QGISPlugin(iface)
+    # Importamos a classe usando o nome corrigido (sem hífens)
+    # Certifique-se de que no arquivo main.py a classe tenha este exato nome.
+    from .main import BDCS2DownloaderQGISPlugin
+    return BDCS2DownloaderQGISPlugin(iface)
