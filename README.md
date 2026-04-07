@@ -1,0 +1,1 @@
+# pluginqgis-bdc-s2-16d-downloader
