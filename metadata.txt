@@ -1,5 +1,5 @@
 [general]
-name=BDC Sentinel-2/MSI 16-D SITS Downloader
+name=BDC Sentinel-2/MSI 16-D Downloader
 description=Download e processamento automatizado de cubos Sentinel-2 16D do Brazil Data Cube.
 about=Este plugin automatiza o download de bandas, cria composições RGB (B11-B08-B04), gera máscaras de nuvens vetorizadas (SCL) com limpeza de áreas menores que 1ha e organiza as camadas no projeto.
 version=0.1
