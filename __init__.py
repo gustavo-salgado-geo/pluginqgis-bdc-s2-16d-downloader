@@ -9,5 +9,5 @@ def classFactory(iface):
     """
     # Importamos a classe usando o nome corrigido (sem hífens)
     # Certifique-se de que no arquivo main.py a classe tenha este exato nome.
-    from .main import BDCS2DownloaderQGISPlugin
-    return BDCS2DownloaderQGISPlugin(iface)
+    from .main import BDC_downloader_S216D
+    return BDC_downloader_S216D(iface)
